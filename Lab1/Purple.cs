@@ -39,9 +39,7 @@ namespace Lab1
         {
             double answer = 0;
 
-            // code here
-
-            // end
+            answer = Math.Pow(f, 2) - 4 * d * g;
 
             return answer;
         }
