@@ -5,10 +5,13 @@ namespace Lab1
         public bool Task1(int a, int b, int c)
         {
             bool answer = false;
+            if (Math.sign(a) == Math.sign(b) || Math.sign(b) == Math.sign(c)
+                {
+                    answer = true;
+                }
 
 
-
-            // end
+            
 
             return answer;
         }
